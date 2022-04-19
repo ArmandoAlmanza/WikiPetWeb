@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["document","addEventListener","event","console","log"],"mappings":"AAAAA,SAAAC,iBAAA,mBAAAC,IACAC,QAAAC,IAAA","file":"app.js","sourcesContent":["document.addEventListener('DOMContentLoaded', (event) => {\r\n    console.log('DOM fully loaded and parsed');\r\n});"]}

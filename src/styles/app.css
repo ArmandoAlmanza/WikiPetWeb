@@ -1,0 +1,40 @@
+:root{
+	--main-bg-color: #ffff;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+	background-color: var(--main-bg-color);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 2rem;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    text-decoration: none;
+    margin: 0;
+}
+li {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
