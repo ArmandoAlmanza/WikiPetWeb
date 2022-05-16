@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png" />
+        <script
+            src="https://kit.fontawesome.com/1f29982313.js"
+            crossorigin="anonymous"
+        ></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -22,9 +26,9 @@
                 <img src="./build/img/logo.png" alt="Logo Wikipet" />
             </div>
             <nav class="navbar">
-                <a href="#">About us</a>
-                <a href="#">Tips</a>
-                <a href="#">Sign Out</a>
+                <a href="./build/views/about.html">About us</a>
+                <a href="./build/views/tips.html">Tips</a>
+                <a href="./build/views/sigout.html">Sign Out</a>
             </nav>
         </header>
 
@@ -60,23 +64,53 @@
 
             <div class="tip__content">
                 <p id="tip">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Expedita voluptatibus veritatis eveniet iste obcaecati,
-                    harum esse accusantium odit suscipit mollitia, voluptate
-                    tempora! Aliquam nostrum repellendus, sit obcaecati iure
-                    fugit sint? Totam ex, placeat dicta animi enim cum
-                    voluptatem impedit laudantium, molestias, officiis odit
-                    provident maiores id optio. Aliquam nostrum reiciendis,
-                    possimus libero sed deleniti eaque molestiae? Quam
-                    reprehenderit dicta tempore.
+                    
                 </p>
             </div>
             <div class="tip__img">
-                <img src="./build/img/tip_img.jpg" alt="image tip" />
+                <img src="" alt="image tip" id="tip__img"/>
             </div>
         </main>
 
+        <footer class="site-footer">
+            <p>This page was made by Mariana Mercado && Armando ALmanza</p>
+            <div class="footer__social">
+                <div class="mariana__social">
+                    <small class="social__title">Social of Mariana Mercado</small>
+                    <nav class="social__nav">
+                        <a
+                            href="https://www.instagram.com/mary30_aguilar/"
+                            target="_blank"
+                            ><i class="fa-brands fa-instagram social__icon"></i></a
+                        >
+                        <a
+                            href="https://www.facebook.com/ana.mercado.716"
+                            target="_blank"
+                            ><i class="fa-brands fa-facebook social__icon"></i></a
+                        >
+                    </nav>
+                </div>
 
+                <div class="armando__social">
+                    <small class="social__title">Social of Armando Almanza</small>
+                    <nav class="social__nav">
+                        <a
+                            href="https://www.instagram.com/jamon_sad/"
+                            target="_blank"
+                            ><i class="fa-brands fa-instagram social__icon"></i></a
+                        >
+                        <a
+                            href="https://www.facebook.com/ArmyAlmanza"
+                            target="_blank"
+                            ><i class="fa-brands fa-facebook social__icon"></i></a
+                        >
+                        <a href="https://twitter.com/JamonSad03" target="_blank"
+                            ><i class="fa-brands fa-twitter social__icon"></i></a
+                        >
+                    </nav>
+                </div>
+            </div>
+        </footer>
         <script src="./build/js/app.min.js"></script>
     </body>
 </html>
